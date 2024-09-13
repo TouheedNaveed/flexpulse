@@ -21,7 +21,7 @@ const HeroBanner = () => {
             <Typography fontWeight={600} color="#ff2625" sx={{
                 opacity: 0.1, display: { lg: "block", xs: "none" }
             }} fontSize={"200px"} mt={3}>Exercises</Typography>
-            <img src={HeroBannerImage} alt="banner" className='hero-banner-img' />
+            <img src={HeroBannerImage} alt="banner" className='hero-banner-img'/>
         </Box>
     )
 }
